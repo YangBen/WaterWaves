@@ -22,6 +22,8 @@
 		9142A2D0192F5C0600CA16CE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9142A2CE192F5C0600CA16CE /* InfoPlist.strings */; };
 		9142A2D2192F5C0600CA16CE /* Water_WavesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9142A2D1192F5C0600CA16CE /* Water_WavesTests.m */; };
 		9142A2DF192F5DB600CA16CE /* YBWaterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9142A2DE192F5DB600CA16CE /* YBWaterView.m */; };
+		B5AD966B1AFCD3B3006CA345 /* demo1.png in Resources */ = {isa = PBXBuildFile; fileRef = B5AD96691AFCD3B3006CA345 /* demo1.png */; };
+		B5AD966C1AFCD3B3006CA345 /* demo2.png in Resources */ = {isa = PBXBuildFile; fileRef = B5AD966A1AFCD3B3006CA345 /* demo2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +58,8 @@
 		9142A2D1192F5C0600CA16CE /* Water_WavesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Water_WavesTests.m; sourceTree = "<group>"; };
 		9142A2DD192F5DB600CA16CE /* YBWaterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBWaterView.h; sourceTree = "<group>"; };
 		9142A2DE192F5DB600CA16CE /* YBWaterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBWaterView.m; sourceTree = "<group>"; };
+		B5AD96691AFCD3B3006CA345 /* demo1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demo1.png; sourceTree = "<group>"; };
+		B5AD966A1AFCD3B3006CA345 /* demo2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demo2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +89,7 @@
 		9142A29A192F5C0600CA16CE = {
 			isa = PBXGroup;
 			children = (
+				B5AD96681AFCD384006CA345 /* Res */,
 				9142A2AC192F5C0600CA16CE /* Water Waves */,
 				9142A2CB192F5C0600CA16CE /* Water WavesTests */,
 				9142A2A5192F5C0600CA16CE /* Frameworks */,
@@ -155,6 +160,15 @@
 				9142A2CE192F5C0600CA16CE /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B5AD96681AFCD384006CA345 /* Res */ = {
+			isa = PBXGroup;
+			children = (
+				B5AD96691AFCD3B3006CA345 /* demo1.png */,
+				B5AD966A1AFCD3B3006CA345 /* demo2.png */,
+			);
+			name = Res;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,6 +250,8 @@
 			files = (
 				9142A2BF192F5C0600CA16CE /* Images.xcassets in Resources */,
 				9142A2B1192F5C0600CA16CE /* InfoPlist.strings in Resources */,
+				B5AD966C1AFCD3B3006CA345 /* demo2.png in Resources */,
+				B5AD966B1AFCD3B3006CA345 /* demo1.png in Resources */,
 				9142A2BA192F5C0600CA16CE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
